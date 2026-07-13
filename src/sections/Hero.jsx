@@ -87,11 +87,14 @@ const Hero = () => {
           </a>
 
           <a
-            href="/resume.pdf"
-            className="rounded-full border border-white/10 bg-white/5 px-8 py-4 font-semibold text-white transition hover:border-blue-500 hover:bg-blue-500/10"
-          >
-            Download Resume
-          </a>
+  href="https://res.cloudinary.com/dmpefjyhw/raw/upload/v1783949743/Vikram_Dangi_React_Developer_Resume_x40jab.docx"
+  download="Vikram_Dangi_React_Developer_Resume.docx"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="rounded-full border border-white/10 bg-white/5 px-8 py-4 font-semibold text-white transition hover:border-blue-500 hover:bg-blue-500/10"
+>
+  Download Resume
+</a>
 
         </div>
 
@@ -100,7 +103,7 @@ const Hero = () => {
         <div className="!mt-3 !mb-3 flex justify-center lg:justify-start gap-4">
 
           <a
-            href="https://github.com/"
+            href="https://github.com/vikramofficial63"
             target="_blank"
             rel="noreferrer"
             className="flex h-14 w-14 items-center justify-center rounded-full border border-white/10 bg-white/5 text-xl transition hover:bg-blue-600"
@@ -109,7 +112,7 @@ const Hero = () => {
           </a>
 
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/vikram-dangi-56aa62284?utm_source=share_via&utm_content=profile&utm_medium=member_ios&original_referer="
             target="_blank"
             rel="noreferrer"
             className="flex h-14 w-14 items-center justify-center rounded-full border border-white/10 bg-white/5 text-xl transition hover:bg-blue-600"
@@ -188,7 +191,7 @@ const Hero = () => {
             {/* Image */}
 
             <img
-              src="/profile.png.png"
+              src="https://res.cloudinary.com/dmpefjyhw/image/upload/v1783948054/IMG_2246_ldiihb_g8k5qv.webp"
               alt="Vikram Dangi"
               className="w-[280px] sm:h-[420px]
     md:h-[500px] lg:h-[750px] sm:w-[360px] lg:w-[430px] rounded-[24px] object-cover"

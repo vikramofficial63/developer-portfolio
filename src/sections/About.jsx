@@ -67,7 +67,7 @@ const About = () => {
             <div className="relative rounded-[30px] border border-white/10 bg-gradient-to-br from-[#111827] via-[#0B1224] to-[#050816] p-4 shadow-2xl shadow-blue-600/20">
 
               <img
-                src="/profile.png.png"
+                src="https://res.cloudinary.com/dmpefjyhw/image/upload/v1783948054/IMG_2246_ldiihb_g8k5qv.webp"
                 alt="Vikram Dangi"
                 className="w-[240px] sm:w-[300px] md:w-[340px] lg:w-[380px] h-auto rounded-[24px] object-cover"
               />
