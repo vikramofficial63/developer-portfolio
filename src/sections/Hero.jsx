@@ -88,8 +88,7 @@ const Hero = () => {
 
           <a
   href="https://res.cloudinary.com/dmpefjyhw/raw/upload/v1783949743/Vikram_Dangi_React_Developer_Resume_x40jab.docx"
-  download="Vikram_Dangi_React_Developer_Resume.docx"
-  className="rounded-full border border-white/10 bg-white/5 px-8 py-4 font-semibold text-white transition hover:border-blue-500 hover:bg-blue-500/10"
+  className="relative z-50 cursor-pointer rounded-full border border-white/10 bg-white/5 px-8 py-4 font-semibold text-white transition hover:border-blue-500 hover:bg-blue-500/10"
 >
   Download Resume
 </a>
