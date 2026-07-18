@@ -65,9 +65,7 @@ const Hero = () => {
         </h2>
 
         <p className="mx-auto lg:mx-0 mt-6 max-w-xl text-gray-400 leading-8 text-base lg:text-lg">
-          Frontend Developer specializing in React.js, JavaScript and
-          Tailwind CSS. I build modern, responsive and high-performance
-          websites with clean UI and smooth animations.
+         Full Stack MERN Developer specializing in React.js, Node.js, Express.js, MongoDB, JavaScript, and Tailwind CSS. I build scalable, responsive, and high-performance web applications with clean architecture, modern UI/UX, secure backend APIs, and seamless user experiences.
         </p>
 
         {/* Buttons */}

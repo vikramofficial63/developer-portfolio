@@ -1,11 +1,7 @@
 const About = () => {
   return (
-    <section
-      id="about"
-      className="relative bg-[#070b16]"
-    >
+    <section id="about" className="relative bg-[#070b16]">
       <div className="container pt-24 pb-24 lg:pt-32 lg:pb-32">
-
         <div className="flex flex-col lg:flex-row items-center gap-14 lg:gap-20">
 
           {/* CONTENT */}
@@ -17,41 +13,62 @@ const About = () => {
             </span>
 
             <h2 className="mt-5 text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight text-white">
-              Passionate Frontend Developer Creating Premium Web Experiences
+              Passionate Full Stack MERN Developer Building Modern Web Applications
             </h2>
 
             <p className="mt-6 text-gray-400 leading-8 text-sm sm:text-base lg:text-lg">
-              I'm Vikram Dangi, a passionate React.js Frontend Developer with
-              around 2 years of freelancing experience. I enjoy building
-              modern, responsive and high-performance web applications with a
-              strong focus on clean UI, smooth animations and excellent user
-              experience.
+              I'm Vikram Dangi, a Full Stack MERN Developer with 2+ years of
+              freelancing experience building modern, scalable and
+              high-performance web applications. I specialize in React.js,
+              Node.js, Express.js and MongoDB while focusing on clean code,
+              responsive UI, secure backend APIs and exceptional user
+              experiences.
             </p>
 
             <p className="mt-5 text-gray-400 leading-8 text-sm sm:text-base lg:text-lg">
-              Along with frontend development, I also have experience creating
-              premium portfolio websites, landing pages and business websites
-              using React.js, JavaScript and Tailwind CSS.
+              During my freelancing journey, I've successfully developed and
+              deployed production-ready projects including a Full Stack MERN
+              Ecommerce Platform, a modern News Web Application, premium
+              portfolio websites and responsive business websites. I also have
+              hands-on experience with REST APIs, Authentication, CRUD
+              Operations, Git & GitHub, MongoDB Atlas, Cloudinary, Render and
+              Netlify deployment.
             </p>
 
             {/* Skills */}
 
             <div className="grid grid-cols-2 gap-4 mt-10">
 
-              <div className="rounded-xl border border-white/10 bg-white/5 p-4 text-center">
-                ⚡ React.js
+              <div className="rounded-xl border border-white/10 bg-white/5 p-4 text-center transition hover:border-blue-500 hover:bg-blue-500/10">
+                ⚛️ React.js
               </div>
 
-              <div className="rounded-xl border border-white/10 bg-white/5 p-4 text-center">
-                ⚡ JavaScript
+              <div className="rounded-xl border border-white/10 bg-white/5 p-4 text-center transition hover:border-blue-500 hover:bg-blue-500/10">
+                🚀 Node.js
               </div>
 
-              <div className="rounded-xl border border-white/10 bg-white/5 p-4 text-center">
-                ⚡ Tailwind CSS
+              <div className="rounded-xl border border-white/10 bg-white/5 p-4 text-center transition hover:border-blue-500 hover:bg-blue-500/10">
+                ⚡ Express.js
               </div>
 
-              <div className="rounded-xl border border-white/10 bg-white/5 p-4 text-center">
-                ⚡ Responsive UI
+              <div className="rounded-xl border border-white/10 bg-white/5 p-4 text-center transition hover:border-blue-500 hover:bg-blue-500/10">
+                🍃 MongoDB
+              </div>
+
+              <div className="rounded-xl border border-white/10 bg-white/5 p-4 text-center transition hover:border-blue-500 hover:bg-blue-500/10">
+                🎨 Tailwind CSS
+              </div>
+
+              <div className="rounded-xl border border-white/10 bg-white/5 p-4 text-center transition hover:border-blue-500 hover:bg-blue-500/10">
+                🔗 REST APIs
+              </div>
+
+              <div className="rounded-xl border border-white/10 bg-white/5 p-4 text-center transition hover:border-blue-500 hover:bg-blue-500/10">
+                💻 Git & GitHub
+              </div>
+
+              <div className="rounded-xl border border-white/10 bg-white/5 p-4 text-center transition hover:border-blue-500 hover:bg-blue-500/10">
+                ☁️ Cloudinary • Render • Netlify
               </div>
 
             </div>
@@ -77,7 +94,6 @@ const About = () => {
           </div>
 
         </div>
-
       </div>
     </section>
   );
